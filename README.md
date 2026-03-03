@@ -57,10 +57,18 @@ IP Address,Failed Attempts
 ```
 
 ## Screenshots for GitHub Upload
-Add these images before publishing:
-- Terminal run output
-- Opened `suspicious_ips.csv` file
-- Folder structure in VS Code Explorer
+
+### 1. Terminal Execution
+![Terminal Output](screenshots/terminal_output.png)
+**Command:** `python analyzer.py`
+
+### 2. Generated CSV File
+![CSV Results](screenshots/csv_output.png)
+**File:** `suspicious_ips.csv`
+
+### 3. Project Structure
+![Folder Structure](screenshots/folder_structure.png)
+**Location:** VS Code Explorer
 
 ## Security Impact
 This detection approach can be integrated into:
